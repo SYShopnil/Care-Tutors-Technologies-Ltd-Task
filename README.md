@@ -6,17 +6,17 @@
 
 **Test**: Jest
 
-## Key Technologies
-
-**User Can Create ToDO with Title Description**
-**User Can Update ToDo By Id**
-**User Can Read all ToDo List with Pagination**
-**User can Remove Single ToDo element from list**
-
-## Requirement
+## Requirement Diagram
 
 - **Diagram**
   <img src = "public/doc/demo/use-case-diagram.png"  >
+
+## Key Features
+
+- User Can Create ToDO with Title Description
+- User Can Update ToDo By Id
+- User Can Read all ToDo List with Pagination
+- User can Remove Single ToDo element from list
 
 ## Demo
 
