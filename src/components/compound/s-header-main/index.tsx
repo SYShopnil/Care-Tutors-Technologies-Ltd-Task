@@ -7,7 +7,7 @@ import { EDataTestId } from "@src/types/common";
 export async function SHeaderMain() {
   return (
     <nav
-      data-testid={EDataTestId.SHeaderMain}
+      role={EDataTestId.SHeaderMain}
       className={`flex flex-col lg:flex-row   items-center space-y-4 lg:space-y-0 p-4 mb-3`}
     >
       <div className={`flex-[1_1_85%]`}>

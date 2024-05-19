@@ -2,14 +2,12 @@
 import { useState } from "react";
 import { useDispatch } from "react-redux";
 import { CToDoCreateAndUpdate } from "../c-to-do-create-update";
-import { TodoItem, deleteTodo } from "@src/lib/store/todoSlice";
+import { deleteTodo } from "@src/lib/store/todoSlice";
 import { EToDoMode } from "@src/types/compound/c-to-do-create-update";
 import { Button } from "@src/components/root";
 import { BtnColorSchema } from "@src/types/root";
-
-interface ICTodoItem {
-  todo: TodoItem;
-}
+import { ICTodoItem } from "@src/types/compound/c-to-do-item";
+import { EDataTestId } from "@src/types/common";
 
 export const CTodoItem = ({ todo }: ICTodoItem) => {
   const [isEditing, setIsEditing] = useState(false);
@@ -20,7 +18,10 @@ export const CTodoItem = ({ todo }: ICTodoItem) => {
   };
 
   return (
-    <div className="p-5 bg-white shadow-lg rounded mb-4">
+    <div
+      className="p-5 bg-white shadow-lg rounded mb-4"
+      role={EDataTestId.CTodoItem}
+    >
       {isEditing ? (
         <CToDoCreateAndUpdate
           todo={todo}

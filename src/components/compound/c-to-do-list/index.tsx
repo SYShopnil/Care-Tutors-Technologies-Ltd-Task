@@ -6,6 +6,7 @@ import { TodoItem } from "@src/lib/store/todoSlice";
 import { useAppSelector } from "@src/lib/store/hook";
 import { showItemLimitPerPage } from "@src/config";
 import { SLoading } from "@src/components/root";
+import { EDataTestId } from "@src/types/common";
 
 const CTodoList = () => {
   const todos = useAppSelector((state) => state.todos);
@@ -22,7 +23,7 @@ const CTodoList = () => {
     setCurrentPage(pageNumber);
 
   return (
-    <div>
+    <div role={EDataTestId.CToDoList}>
       {currentTodos.length ? (
         <>
           {currentTodos.map((todo) => (

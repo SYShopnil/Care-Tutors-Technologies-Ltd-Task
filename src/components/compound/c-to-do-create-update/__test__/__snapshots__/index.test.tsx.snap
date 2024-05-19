@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`When To Do Update and Create Component Rendered Expect render successfully 1`] = `
+<div
+  role="CToDoCreateUpdate"
+>
+  <form
+    class="space-y-4"
+    role="CInputForm"
+  >
+    <input
+      class="w-full p-2 border rounded"
+      placeholder="Title"
+      type="text"
+      value="Hello this is a title"
+    />
+    <textarea
+      class="w-full p-2 border rounded"
+      placeholder="Description"
+    >
+      Hello this is description
+    </textarea>
+    <div
+      class="flex justify-center items-center"
+    >
+      <span
+        class="cursor-pointer"
+        role="CButton"
+      >
+        <span
+          class="flex justify-center items-center  "
+        >
+          <span
+            class="text-base md:text-base_2  flex justify-center items-center px-[1rem] py-[0.5rem] rounded-[0.563rem] w-[100%] h-[100%] bg-[#EBF5EC] hover:bg-[#7F4D4F]  duration-[0.5s] text-[#7F4D4F] hover:text-[#EBF5EC]   border-[0.063rem] hover:border-[#EBF5EC] border-[#7F4D4F]   "
+          >
+            <span>
+              Update
+            </span>
+          </span>
+        </span>
+      </span>
+    </div>
+  </form>
+</div>
+`;

@@ -1,6 +1,7 @@
 import React from "react";
 import { Button } from "../button";
 import { IInputForm } from "@src/types/root/c-input-form";
+import { EDataTestId } from "@src/types/common";
 
 export const CInputForm = ({
   handleSubmit,
@@ -11,7 +12,7 @@ export const CInputForm = ({
   btnVariant,
 }: IInputForm) => {
   return (
-    <form className="space-y-4">
+    <form className="space-y-4" role={EDataTestId.CInputForm}>
       <input
         type="text"
         value={title}

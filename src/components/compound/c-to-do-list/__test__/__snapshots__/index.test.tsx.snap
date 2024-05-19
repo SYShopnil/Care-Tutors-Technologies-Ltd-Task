@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`When To Do List Rendered Expect render successfully 1`] = `
+<div
+  role="CToDoList"
+>
+  <div>
+    <div
+      class="flex justify-center items-center h-[50vh]"
+    >
+      <p
+        class="text-center font-extrabold text-2xl text-[#7F4D4F]"
+      >
+        No ToDo Found!!
+      </p>
+    </div>
+  </div>
+</div>
+`;

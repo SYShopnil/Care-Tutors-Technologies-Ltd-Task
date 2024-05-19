@@ -1,12 +1,11 @@
 export enum BtnColorSchema {
-  SolidBgVioletTextWhite = 'SolidBgVioletTextWhite',
-  SolidBgWhiteTextGreen = 'SolidBgWhiteTextGreen',
-  SolidBgGrayTextViolet = 'SolidBgGrayTextViolet',
+  SolidBgVioletTextWhite = "SolidBgVioletTextWhite",
+  SolidBgWhiteTextGreen = "SolidBgWhiteTextGreen",
+  SolidBgGrayTextViolet = "SolidBgGrayTextViolet",
 }
 export interface IButton {
   btnText: string;
   colorSchema: BtnColorSchema;
-  dataTestId?: string;
   isArrow: boolean;
 }
 export interface INormalButton extends IButton {

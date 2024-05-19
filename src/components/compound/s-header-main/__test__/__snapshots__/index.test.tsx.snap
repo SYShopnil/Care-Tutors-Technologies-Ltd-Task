@@ -3,7 +3,7 @@
 exports[`When Header Main has rendered Expect render successfully 1`] = `
 <nav
   class="flex flex-col lg:flex-row   items-center space-y-4 lg:space-y-0 p-4 mb-3"
-  data-testid="SHeaderMain"
+  role="SHeaderMain"
 >
   <div
     class="flex-[1_1_85%]"
@@ -58,12 +58,6 @@ exports[`When Header Main has rendered Expect render successfully 1`] = `
   </div>
   <div
     class="space-y-4 lg:space-y-2 flex-[1_1_15%] "
-  >
-    <div>
-      <p
-        class="font-bold text-white text-lg"
-      />
-    </div>
-  </div>
+  />
 </nav>
 `;

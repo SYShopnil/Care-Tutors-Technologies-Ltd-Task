@@ -2,6 +2,7 @@
 
 import { CInputForm } from "@src/components/root/c-input-form";
 import { addTodo, editTodo } from "@src/lib/store/todoSlice";
+import { EDataTestId } from "@src/types/common";
 import {
   EToDoMode,
   ICEditTodo,
@@ -41,13 +42,15 @@ export const CToDoCreateAndUpdate = ({ todo, onClose, mode }: ICEditTodo) => {
     }
   };
   return (
-    <CInputForm
-      handleSubmit={handleSubmit}
-      setDescription={setDescription}
-      setTitle={setTitle}
-      toDoData={{ description, title }}
-      btnText={btnText}
-      btnVariant={btnVariant}
-    />
+    <div role={EDataTestId.CToDoCreateUpdate}>
+      <CInputForm
+        handleSubmit={handleSubmit}
+        setDescription={setDescription}
+        setTitle={setTitle}
+        toDoData={{ description, title }}
+        btnText={btnText}
+        btnVariant={btnVariant}
+      />
+    </div>
   );
 };

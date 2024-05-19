@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`When Button has Rendered Expect render successfully 1`] = `
+<span
+  class="cursor-pointer"
+  role="CButton"
+>
+  <span
+    class="flex justify-center items-center  "
+  >
+    <span
+      class="text-base md:text-base_2  flex justify-center items-center px-[1rem] py-[0.5rem] rounded-[0.563rem] w-[100%] h-[100%] bg-[#EDEDED] hover:bg-[#7A67EE]  duration-[0.5s] text-[#7A67EE] hover:text-[#EDEDED]   border-[0.063rem] hover:border-[#EDEDED] border-[#7A67EE]   "
+    >
+      <span>
+        Test Input
+      </span>
+    </span>
+  </span>
+</span>
+`;
