@@ -1,0 +1,26 @@
+[
+  {
+    "email": "sadmanishopnil@gmail.com",
+    "password": "123456789",
+    "userName": "John Doe",
+    "profilePicLink": "/assert/default-profile.png",
+    "userType": "user",
+    "gender": "male"
+  },
+  {
+    "email": "sadmanishopnil1@gmail.com",
+    "password": "123456789",
+    "userName": "Jane Smith",
+    "profilePicLink": "/assert/default-profile.png",
+    "userType": "admin",
+    "gender": "male"
+  },
+  {
+    "email": "xyz@gmail.com",
+    "password": "123456789",
+    "userName": "Harry Rose",
+    "profilePicLink": "/assert/default-profile.png",
+    "userType": "user",
+    "gender": "female"
+  }
+]
