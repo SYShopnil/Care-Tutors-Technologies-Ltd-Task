@@ -1,6 +1,6 @@
 {
-  "name": "next-testing-intro",
-  "version": "1.0.1",
+  "name": "Caretutors-Technologies-Ltd-Task",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",

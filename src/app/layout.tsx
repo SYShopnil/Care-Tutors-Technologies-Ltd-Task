@@ -7,7 +7,7 @@ import CStoreProvider from "@src/components/compound/c-store-provider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Care-Tutor-Task",
+  title: "Caretutors-Technologies-Ltd-Task",
   description: "This is a job task of Care Tutor",
 };
 export const fetchCache = "force-no-store";
